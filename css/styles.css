@@ -1,0 +1,54 @@
+:root {
+  --light-font-color-heading: #F9FAF8;
+  --light-font-color-text: #E5E7EB;
+  --dark-color: #1F2937;
+  --light-color: #FFFFFF;
+  --neutral-color: #E5E7EB;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-color);
+}
+
+.navbar > .logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--light-font-color-heading);
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav > ul > li {
+  display: inline;
+}
+
+.hero-section {
+  background-color: var(--dark-color);
+  display: flex;
+}
+
+.information-cards {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 2rem;
+}
+
+.information-card-item {
+  width: 168px;
+}
+
+.quote-section {
+  background-color: var(--neutral-color);
+}
