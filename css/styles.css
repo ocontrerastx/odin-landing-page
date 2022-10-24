@@ -105,6 +105,12 @@ nav > ul > li {
   display: flex;
 }
 
+.hero-section-image > img {
+  height: 260px;
+  width: 520px;
+  object-fit: cover;
+}
+
 /* information section */
 .information-section {
   padding: 50px 0 100px 0;
@@ -129,6 +135,9 @@ nav > ul > li {
 .information-card-item > img {
   border-radius: 8px;
   padding: 0 0 5px 0;
+  width: 168px;
+  height: 168px;
+  object-fit: cover;
 }
 
 /* quote section */
